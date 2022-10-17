@@ -13,7 +13,7 @@
           <b-card header="Card with list group">
             <ul class="list-group list-group-flush">
               <li 
-                v-for="(brew, index) in brews" v-bind:key="index"
+                v-for="(brew, index) in brews" :key="index"
               class="list-group-item"
               >{{index}}, {{brew.name}}, {{brew.state}}</li>
               
